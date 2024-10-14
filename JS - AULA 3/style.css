@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form, table{
+    width: 50%;
+    margin: auto;
+    margin-top: 64px;
+    text-align: left;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+}
+
+form button{
+    width: 100%;
+    cursor: pointer;
+}
+
+table, thead, tbody, th, td, tr{
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 6px 12px;
+    text-align: center;
+}
+
+.registros_tabela{
+    display: none;
+}
+
+.excluir{
+    cursor: pointer;
+}

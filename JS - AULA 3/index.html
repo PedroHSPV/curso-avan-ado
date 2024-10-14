@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <!--DOM
+
+    <h1>Olá mundo</h1>
+    <h2 id="titulo2">Chamando Id</h2>
+
+<form name="dados">
+    <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+    </div>
+    <div>
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="email">
+    </div>
+    <div>
+        <label for="teleofne">Telefone</label>
+        <input type="tel" name="telefone" id="telefone">
+    </div>
+
+    <input type="text" name="resultado" id="resultado"
+    <button type="button" onclick="verDados()"> SALVAR</button>
+</form>
+-->
+
+<!--propriedade inner html-->
+<label for="nome">Digite seu nome</label>
+<input type="text" name="nome" id="nome">
+
+<label for="sobrenome">Digite seu sobrenome</label>
+<input type="text" name="sobrenome" id="sobrenome">
+
+<button onclick="mostrarNomeSobrenome()">SALVAR</button>
+
+<input type="text" name="resultado" id="resultado" readonly>
+
+<div id="container"></div>
+<input type="text" name="nome" id="nome">
+<!-- inner text-->
+
+<div>
+    <p>Olá</p>
+</div>
+
+<!--Eventos-->
+
+
+<!--Condicionais-->
+<!--if else-->
+<form name="verificaIdade">
+    <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+    </div>
+    <div>
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade" required>
+    </div>
+    <div>
+        <label for="acompanhadoDosPais">Acompanhado dos pais?</label>
+        <input type="checkbox" name="acompanhadoDosPais" id="acompanhadoDosPais">
+    </div>
+    <button type="submit">Verificar</button>
+</form>
+
+<!--objeto-->
+<label for="som">Qual som o animal faz?</label>
+<input type="text" id="som" nome="som">
+<button>Verificar</button>
+
+    <p id="animal"></p>
+    
+<form name="cadastro">
+    <input type="text" id="nome" name="nome" placeholder="nome">
+    <br>
+    <input type="text" id="sobrenome" name="sobrenome" placeholder="sobrenome">
+    <br>
+    <input type="text" id="telefone" name="telefone" placeholder="telefone">
+    <br>
+    <input type="text" id="email" name="email" placeholder="email">
+    <br>
+    <button type="submit">
+        Cadastrar
+    </button>
+</form>
+
+<ul>s</ul>
+
+<!--objeto-->
+
+<form name="dados">
+    <div>
+        <label for="nome_completo">Nome completo</label>
+        <input type="text" id="nome_completo" required>
+    </div>
+    <div>
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+    </div>
+
+    <button type="submit">SALVAR</button>
+</form>
+
+<table class="registros_tabela">
+    <thead>
+        <th>Nome completo</th>
+        <th>Telefoneo</th>
+        <th>E-mail</th>
+        <th>Excluir</th>
+    </thead>
+    <tbody id="corpo_tabela"> </tbody>
+</table>
+
+<!--API CEP-->
+
+<form name="endereco">
+
+    <h2>Preencha o endereço</h2>
+    <input type="text" name="cep" id="cep" placeholder="CEP" maxlength="8" >
+    <input type="text" name="rua" id="rua" placeholder="Rua">
+    <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+    <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+    <input type="text" name="estado" id="estado" placeholder="Estado">
+    <input type="text" name="numero" id="numero" placeholder="Numero">
+
+</form>
+
+
+    <script src="script.js" type="module" defer></script> 
+</body>
+</html>
